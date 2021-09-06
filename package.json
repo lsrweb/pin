@@ -1,0 +1,17 @@
+{
+  "name": "pin",
+  "version": "1.0.0",
+  "description": "拼团项目",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lsr",
+  "license": "ISC",
+  "dependencies": {
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.7",
+    "uview-ui": "^1.8.4",
+    "vuex-persistedstate": "^4.0.0"
+  }
+}

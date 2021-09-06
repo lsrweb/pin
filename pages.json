@@ -1,0 +1,93 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/Index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/My/index",
+			"meta": {
+				"isLogin": true
+			},
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/PinShop/index",
+			"style": {
+				"navigationBarTitleText": "拼购",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Shop/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Shop/list",
+			"name": "shoplist",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Index/children/search",
+			"name": "search",
+			"style": {
+				"navigationBarTitleText": "搜索商品"
+			}
+		},
+		{
+			"path": "pages/404/404",
+			"name": "404",
+			"style": {
+				"navigationBarTitleText": "Page Not Found"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f26602",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/Index/index",
+			"iconPath": "./static/tabbar/index.png",
+			"selectedIconPath": "./static/tabbar/index_s.png",
+			"text": "首页"
+		    }, {
+			"pagePath": "pages/PinShop/index",
+			"iconPath": "./static/tabbar/pin.png",
+			"selectedIconPath": "/static/tabbar/pin_s.png",
+			"text": "拼购"
+		    }, {
+			"pagePath": "pages/Shop/index",
+			"iconPath": "./static/tabbar/shop.png",
+			"selectedIconPath": "/static/tabbar/shop_s.png",
+			"text": "商城"
+				}, {
+			"pagePath": "pages/My/index",
+			"iconPath": "./static/tabbar/my.png",
+			"selectedIconPath": "/static/tabbar/my_s.png",
+			"text": "我的"
+				}]
+	}
+}
